@@ -8,6 +8,7 @@ def sum_rek(x, y):
         return x
     return sum_rek(x + 1, y - 1)
 
+
 number_a = int(input('A= '))
 number_b = int(input('B= '))
 print(sum_rek(number_a, number_b))
